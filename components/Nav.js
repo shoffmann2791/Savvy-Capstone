@@ -9,7 +9,6 @@ export default () => html`
                 <a href="#">About</a>
                 <a href="#">Portfolio</a>
                 <a href="#">Investment</a>
-
             </nav>
         </div>
     </div>
