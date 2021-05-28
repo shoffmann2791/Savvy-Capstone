@@ -1,13 +1,23 @@
-import { Header, Nav, Main, Footer } from "./components";
+import { Nav, Main, Footer } from "./components";
+import * as state from "./Store";
+import Navigo from "navigo";
+import { capitalize } from "lodash";
 
-function render() {
+const router = new Navigo(window.location.origin);
+
+router
+  .on({
+    ":page": params => render(state[capitalize(params.page)]),
+    "/": () => render(state.Home)
+  })
+  .resolve();
+
+function render(st = st.Home) {
   document.querySelector("#root").innerHTML = `
-  ${Header()}
-  ${Nav()}
-  ${Main()}
+  ${Nav(state.Links)}
+  ${Main(st)}
   ${Footer()}
 
   `;
-  addEventListeners();
+  router.updatePageLinks();
 }
-render();
