@@ -1,6 +1,6 @@
 export default {
-  header: "Portfoilio",
-  view: "Portfoilio",
+  header: "Portfolio",
+  view: "Portfolio",
   pictures: [
     {
       url:
@@ -46,6 +46,11 @@ export default {
       url:
         "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60",
       title: "runnin with the dogs"
+    },
+    {
+      url:
+        "https://www.adlittle.com/sites/default/files/viewpoints/future_car_sales_cover.jpg",
+      title: "a image of a car"
     }
   ]
 };

@@ -13,7 +13,7 @@ router
   })
   .resolve();
 
-function render(st = st.Home) {
+function render(st = state.Home) {
   document.querySelector("#root").innerHTML = `
   ${Nav(state.Links)}
   ${Main(st)}
@@ -21,12 +21,33 @@ function render(st = st.Home) {
 
   `;
   router.updatePageLinks();
+  apiCall();
 }
-
-axios
-  .get("https://api.sunrise-sunset.org/json?lat=38.6270&lng=-90.1994")
-  .then(response => {
-    let sunrise = response.data.sunrise;
-    console.log(sunrise);
-    document.querySelector(".api").innerHTML = sunrise;
-  });
+function apiCall() {
+  axios
+    .get("https://api.sunrise-sunset.org/json?lat=38.6270&lng=-90.1994")
+    .then(response => {
+      let sunrise = response.data.results.sunrise;
+      console.log(sunrise);
+      document.querySelector(".api").innerHTML = sunrise;
+    });
+}
+function addEventListener() {
+  if (st.view === "Form") {
+    document.querySelector("form").addEventListener("submit", event => {
+      event.preventDefault();
+      // convert HTML elements to Array
+      let inputList = Array.from(event.target.elements);
+      // remove submit button from list
+      inputList.pop();
+      // construct new picture object
+      let newPic = inputList.reduce((pictureObject, input) => {
+        pictureObject[input.name] = input.value;
+        return pictureObject;
+      }, {});
+      // add new picture to state.Gallery.pictures
+      state.Portfolio.pictures.push(newPic);
+      render(state.Portfolio);
+    });
+  }
+}
