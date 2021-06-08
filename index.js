@@ -2,6 +2,7 @@ import { Nav, Main, Footer } from "./components";
 import * as state from "./Store";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
+import axios from "axios";
 
 const router = new Navigo(window.location.origin);
 
@@ -21,3 +22,11 @@ function render(st = st.Home) {
   `;
   router.updatePageLinks();
 }
+
+axios
+  .get("https://api.sunrise-sunset.org/json?lat=38.6270&lng=-90.1994")
+  .then(response => {
+    let sunrise = response.data.sunrise;
+    console.log(sunrise);
+    document.querySelector(".api").innerHTML = sunrise;
+  });
