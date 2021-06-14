@@ -15,7 +15,7 @@ export default {
     {
       url:
         "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191764995_10157879207931455_5827801031524458956_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=-1DEzS5eji0AX_gXGrk&_nc_ht=scontent-ort2-1.xx&oh=42a590fd1efc94069caf7f41a46dcf5f&oe=60CD2F23",
-      title: "Twirl"
+      title: "Madison & Michael"
     },
     {
       url:
@@ -29,43 +29,18 @@ export default {
     },
     {
       url:
-        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191088817_10157879207996455_5063809107623368268_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=4mZHxiNjVGwAX8jk_l0&_nc_ht=scontent-ort2-1.xx&oh=e9b802b83fe010ff3f0313c487ea0845&oe=60CC3282",
+        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/189781652_10157879208036455_8868543711933108116_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=0debeb&_nc_ohc=8sNCS3J7Wz0AX_0gAQF&_nc_oc=AQlc-XXJxUKaegAUUmwxRlQr5xSfI9WMHsxWcX7Sff_tnfFTgyvQlC8sK19SaFSlXaF-uAsG49KaNOsPvOE_xcdQ&_nc_ht=scontent-ort2-1.xx&oh=54875245decee11e26fec7c29ea15ea8&oe=60CD69FD",
       title: "Madison & Michael"
     },
     {
       url:
-        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/189781652_10157879208036455_8868543711933108116_n.jpg?_nc_cat=106&ccb=1-3&_nc_sid=0debeb&_nc_ohc=8sNCS3J7Wz0AX_0gAQF&_nc_oc=AQlc-XXJxUKaegAUUmwxRlQr5xSfI9WMHsxWcX7Sff_tnfFTgyvQlC8sK19SaFSlXaF-uAsG49KaNOsPvOE_xcdQ&_nc_ht=scontent-ort2-1.xx&oh=54875245decee11e26fec7c29ea15ea8&oe=60CD69FD",
-      title: "doin a confuse"
-    },
-    {
-      url:
-        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191860222_10157879208331455_2875562412084304428_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=0-rX4djWuykAX8dbsMR&tn=LMDHrVRLoTupgMzC&_nc_ht=scontent-ort2-1.xx&oh=4ccf07216e4b61e0518cd606f059b826&oe=60CCA2B8",
-      title: "happy little jump boi"
-    },
-    {
-      url:
         "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191979642_10157879208231455_6178700286553880375_n.jpg?_nc_cat=107&ccb=1-3&_nc_sid=0debeb&_nc_ohc=ukPwrcYU9zYAX_ueXop&_nc_ht=scontent-ort2-1.xx&oh=5d50fadf9d210ebe806e5e5b01759650&oe=60CBCD0D",
-      title: "a image of a car"
+      title: "Madison & Michael"
     },
     {
       url:
         "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191760763_10157879208381455_7474040842204574889_n.jpg?_nc_cat=101&ccb=1-3&_nc_sid=0debeb&_nc_ohc=__oWQ8V7VGkAX9b_c5p&_nc_ht=scontent-ort2-1.xx&oh=8ea1a83af9f361d888deeae95ffabb0e&oe=60CD8941",
-      title: "runnin with the dogs"
-    },
-    {
-      url:
-        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191396372_10157879207746455_7750069930363901350_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=bOM1RMxPh7kAX9n0keS&_nc_ht=scontent-ort2-1.xx&oh=1fb0b223798c74bf3221495c600ab73e&oe=60CBBA39",
-      title: "runnin with the dogs"
-    },
-    {
-      url:
-        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191396372_10157879207746455_7750069930363901350_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=bOM1RMxPh7kAX9n0keS&_nc_ht=scontent-ort2-1.xx&oh=1fb0b223798c74bf3221495c600ab73e&oe=60CBBA39",
-      title: "runnin with the dogs"
-    },
-    {
-      url:
-        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/191396372_10157879207746455_7750069930363901350_n.jpg?_nc_cat=108&ccb=1-3&_nc_sid=0debeb&_nc_ohc=bOM1RMxPh7kAX9n0keS&_nc_ht=scontent-ort2-1.xx&oh=1fb0b223798c74bf3221495c600ab73e&oe=60CBBA39",
-      title: "runnin with the dogs"
+      title: "Madison & Michael"
     }
   ]
 };

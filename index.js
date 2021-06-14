@@ -25,7 +25,7 @@ function render(st = state.Home) {
 }
 function apiCall() {
   axios
-    .get("https://api.sunrise-sunset.org/json?lat=38.6270&lng=-90.1994")
+    .get("https://api.sunrise-sunset.org/json?lat=140.6270&lng=190.1994")
     .then(response => {
       let sunrise = response.data.results.sunrise;
       console.log(sunrise);
