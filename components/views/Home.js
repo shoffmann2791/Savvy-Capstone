@@ -1,16 +1,20 @@
 import html from "html-literal";
 
-import spin from "../../Lib/spin.jpg";
-
+import home1 from "../../Lib/home1.webp";
+import Home2 from "../../Lib/Home2.webp";
+import home3 from "../../Lib/home3.webp";
 export default () => html`
   <div class="container">
-    <h1>A FAMILY PHOTOGRAPHER IN ST. LOUIS, MISSOURI.</h1>
+    <h1>Sally Hoffmann Photography</h1>
 
-    <img src="${spin}" />
+    <img src="${home1}" height="350px" />
+    <img src="${Home2}" height="350px" />
+    <img src="${home3}" height="350px" />
 
-    <h2>I AM A STORYTELLER.</h2>
+    <h2>A FAMILY PHOTOGRAPHER IN ST. LOUIS, MISSOURI.</h2>
+    <h3>I AM A STORYTELLER.</h3>
 
-    <h3>YOUR STORY STARTS HERE.</h3>
+    <h4>YOUR STORY STARTS HERE.</h4>
 
     <p>
       I am Sally, a St. Louis Photographer. I emphasize in Family Photography as
