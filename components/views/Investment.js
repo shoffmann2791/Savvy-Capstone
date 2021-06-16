@@ -1,10 +1,15 @@
 import html from "html-literal";
 
+import boybirthday from "../../Lib/boybirthday.webp";
+
+import girl from "../../Lib/girl.webp";
 export default () => html`
   <h1>INVESTMENT</h1>
 
   <h2>Preserve your best memories.</h2>
+  <img src="${boybirthday}" height=385px/>
 
+  <img src="${girl}" height=385px/>
   <h3>THE EXPERIENCE</h3>
   <h4>Outdoor Family/ Children/ Newborn $150</h4>
 
@@ -18,18 +23,18 @@ export default () => html`
     below and let's connect!
   </p>
 
-  <p>
-    This Includes:
+
+   <h4> This Includes:</h4>
   </p>
 
   <p>-60-90 Minute session in St. Louis (outdoor) at Sunset</p>
   <p>-Planning/consultation (location, wardrobe styling)</p>
   <p>-Hand editing and retouching of your images.</p>
 
-  <p>
-    Below is the time sunsets today. Please meet at the disscused location 60
+  <h3>
+    Below is the time sunsets today. Please meet at the discussed location 60
     Minutes prior to the time below.
-  </p>
+  </h3>
 
   <div class="api"></div>
 `;

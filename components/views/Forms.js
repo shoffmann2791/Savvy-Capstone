@@ -1,8 +1,11 @@
 import html from "html-literal";
-
+import girlcamera from "../../Lib/girlcamera.webp";
 export default () => html`
   <form id="register" method="POST" action="">
-    <h2>Add a photo to the gallery!</h2>
+    <h2>Add a photo to the portfolio!</h2>
+    <img src="${girlcamera}" height="300px" />
+    <p>Below is a option to upload a quick photo to the image gallery!</p>
+
     <div>
       <label for="url">Photo URL:</label>
       <input

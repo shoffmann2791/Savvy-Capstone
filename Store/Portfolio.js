@@ -45,17 +45,17 @@ export default {
     {
       url:
         "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/176133183_3833925146685981_5410411866548466251_n.jpg?_nc_cat=109&ccb=1-3&_nc_sid=0debeb&_nc_ohc=xvOBwMsGktkAX_Na_DH&_nc_ht=scontent-ort2-1.xx&oh=d0deb127fbd687a1715be343284d8ec7&oe=60CD1D52",
-      title: "Madison & Michael"
+      title: "Augustus"
+    },
+    {
+      url:
+        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/175624329_3834468239965005_2217819099596496209_n.jpg?_nc_cat=103&ccb=1-3&_nc_sid=0debeb&_nc_ohc=AShW8AAr4wQAX9ajwHI&_nc_ht=scontent-ort2-1.xx&oh=54aadae7843e07bd9765029818aedb04&oe=60CF2CC4",
+      title: "Augustus"
     },
     {
       url:
         "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/176342721_3833925196685976_807330198763302748_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=9FbxHHGe6swAX_ma-Zq&tn=LMDHrVRLoTupgMzC&_nc_ht=scontent-ort2-1.xx&oh=24d9b5a1e2fcb07b77bb139dd4e8e356&oe=60CDAC85",
-      title: "Madison & Michael"
-    },
-    {
-      url:
-        "https://scontent-ort2-1.xx.fbcdn.net/v/t1.6435-9/176342721_3833925196685976_807330198763302748_n.jpg?_nc_cat=100&ccb=1-3&_nc_sid=0debeb&_nc_ohc=9FbxHHGe6swAX_ma-Zq&tn=LMDHrVRLoTupgMzC&_nc_ht=scontent-ort2-1.xx&oh=24d9b5a1e2fcb07b77bb139dd4e8e356&oe=60CDAC85",
-      title: "Madison & Michael"
+      title: "Augustus"
     }
   ]
 };

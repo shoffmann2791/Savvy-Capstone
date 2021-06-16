@@ -3,5 +3,5 @@ export default [
   { title: "About", text: "About" },
   { title: "Investment", text: "Investment" },
   { title: "Portfolio", text: "Portfolio" },
-  { title: "Forms", text: "Add Photo to Gallery" }
+  { title: "Forms", text: "Add Photo to Portfolio" }
 ];
