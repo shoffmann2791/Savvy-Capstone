@@ -1,10 +1,12 @@
 import html from "html-literal";
 
+import spin from "../../Lib/spin.jpg";
+
 export default () => html`
   <div class="container">
     <h1>A FAMILY PHOTOGRAPHER IN ST. LOUIS, MISSOURI.</h1>
 
-    <img src="../../Lib/spin.jpg" />
+    <img src="${spin}" />
 
     <h2>I AM A STORYTELLER.</h2>
 

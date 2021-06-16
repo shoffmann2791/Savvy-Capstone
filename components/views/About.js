@@ -13,6 +13,22 @@ export default () => html`
       cherish.
     </p>
   </div>
+  <div class="submitform">
+    <form action="https://formspree.io/f/mwkabnrl" method="POST">
+      <label>
+        Your email:
+        <input type="email" name="_replyto" />
+      </label>
+      <label>
+        Your message:
+        <textarea name="message"></textarea>
+      </label>
+
+      <!-- your other form fields go here -->
+
+      <button type="submit">Send</button>
+    </form>
+  </div>
   <div class="fixed-footer">
     <div class="container">Copyright &copy; 2021 Savvy Coders</div>
   </div>

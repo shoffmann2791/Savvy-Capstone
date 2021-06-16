@@ -19,9 +19,13 @@ function render(st = state.Home) {
   ${Main(st)}
   ${Footer()}
 
+
+
   `;
   router.updatePageLinks();
   apiCall();
+  addEventListener();
+  validateForm();
 }
 function apiCall() {
   axios
@@ -32,6 +36,7 @@ function apiCall() {
       document.querySelector(".api").innerHTML = sunrise;
     });
 }
+
 function addEventListener() {
   if (st.view === "Form") {
     document.querySelector("form").addEventListener("submit", event => {
