@@ -2,13 +2,14 @@
 
 body{
   font-family: "Playfair Display", sans-serif;
-  padding-top: 60px;
-  padding-bottom: 40px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 .container{
   width: 80%;
   margin: 0 auto;
+
 }
 .fixed-header, .fixed-footer{
   width: 100%;
@@ -28,10 +29,16 @@ nav a{
   text-decoration: none;
   padding: 7px 25px;
   display: inline-block;
-}
 
+}
 
 .Image{
   height: 400px;
-  padding:  10px;
+  padding: 10px;
+}
+.welcome{
+  position: relative;
+  text-align: center;
+  border-style: solid;
+  border-width: 5px;
 }

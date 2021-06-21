@@ -7,7 +7,7 @@ export default () => html`
   <h1>INVESTMENT</h1>
 
   <h2>Preserve your best memories.</h2>
-  <img src="${boybirthday}" height=385px/>
+  <img src="${boybirthday}" height="385px" alt="center-image"/>
 
   <img src="${girl}" height=385px/>
   <h3>THE EXPERIENCE</h3>
