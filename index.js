@@ -18,9 +18,6 @@ function render(st = state.Home) {
   ${Nav(state.Links)}
   ${Main(st)}
   ${Footer()}
-
-
-
   `;
   router.updatePageLinks();
   apiCall();

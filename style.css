@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
+
 body{
   font-family: "Playfair Display", sans-serif;
   padding-top: 100px;
@@ -9,6 +10,7 @@ body{
 .container{
   width: 80%;
   margin: 0 auto;
+  padding-left: 40px;
 
 }
 .fixed-header, .fixed-footer{
@@ -35,13 +37,22 @@ nav a{
 .Image{
   height: 400px;
   padding: 10px;
+
 }
 .welcome{
-  height: 300px;
-  width: 380px;
-  position: relative;
-  text-align: center;
-  border-style: double;
-  border-width: 4px;
-  flex-direction: column-reverse;
+  height: 350px;
+  width: 750px;
+  border-style: none;
+  text-align: left;
+  padding-top: 40px;
+  padding-left: 150px;
+}
+
+.header2{
+text-align: center;
+
+}
+
+.align{
+  padding-left: 150px;
 }

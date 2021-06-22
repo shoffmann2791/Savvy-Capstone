@@ -4,12 +4,16 @@ import boybirthday from "../../Lib/boybirthday.webp";
 
 import girl from "../../Lib/girl.webp";
 export default () => html`
+<div class="container">
+
+  <div class= "header2">
+
   <h1>INVESTMENT</h1>
 
-  <h2>Preserve your best memories.</h2>
-  <img src="${boybirthday}" height="385px" alt="center-image"/>
+  <h2>Preserve your best memories.</h2></div>
+  <img src="${boybirthday}" height="385px" width="520px"/>
 
-  <img src="${girl}" height=385px/>
+  <img src="${girl}" height="385px" width="520px"/>
   <h3>THE EXPERIENCE</h3>
   <h4>Outdoor Family/ Children/ Newborn $150</h4>
 
@@ -37,4 +41,5 @@ export default () => html`
   </h3>
 
   <div class="api"></div>
+  </div>
 `;
