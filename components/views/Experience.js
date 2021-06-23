@@ -8,13 +8,13 @@ export default () => html`
 
   <div class= "header2">
 
-  <h1>INVESTMENT</h1>
+  <h1>The Experience</h1>
 
   <h2>Preserve your best memories.</h2></div>
   <img src="${boybirthday}" height="385px" width="520px"/>
 
   <img src="${girl}" height="385px" width="520px"/>
-  <h3>THE EXPERIENCE</h3>
+
   <h4>Outdoor Family/ Children/ Newborn $150</h4>
 
   <p>
@@ -42,4 +42,5 @@ export default () => html`
 
   <div class="api"></div>
   </div>
+</div>
 `;

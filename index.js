@@ -21,12 +21,11 @@ function render(st = state.Home) {
   `;
   router.updatePageLinks();
   apiCall();
-  addEventListener();
-  validateForm();
+  addEventListener(st);
 }
 function apiCall() {
   axios
-    .get("https://api.sunrise-sunset.org/json?lat=140.6270&lng=190.1994")
+    .get("https://api.sunrise-sunset.org/json?lat=121.6270&lng=190.1994")
     .then(response => {
       let sunrise = response.data.results.sunrise;
       console.log(sunrise);
@@ -34,7 +33,7 @@ function apiCall() {
     });
 }
 
-function addEventListener() {
+function addEventListener(st) {
   if (st.view === "Form") {
     document.querySelector("form").addEventListener("submit", event => {
       event.preventDefault();

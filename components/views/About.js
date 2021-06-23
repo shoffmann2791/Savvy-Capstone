@@ -7,18 +7,18 @@ export default () => html`
     <div class="header2">
       <h1>Hi, I'm Sally...</h1>
     </div>
-    <img src="${Family}" height="350px" padding="250px" />
+
+    <img src="${Family}" class="About"/>
 
     <p>
-      I am not an topnotch photographer. I am just a mom who loves taking photos
-      of her child and realized that I was pretty good at it. As a mom, I am
-      passionate about capturing my child at every milestone. These are moments
-      I will never get back so I take photos every chance I can. My photography
-      approach focuses on capturing the moments you share with people you
-      cherish.
+      I am a mom who loves taking photos of her child and realized that I was
+      pretty good at it. As a mom, I am passionate about capturing my child at
+      every milestone. These are moments I will never get back, so I take photos
+      every chance I can. My photography approach focuses on capturing the
+      moments you share with people you cherish.
     </p>
     <p>
-      To inquire about booking a session, send me a message on the form below
+      To inquire about booking a session, send me a message on the form below,
       and I will get back with you within 1-2 business days.
     </p>
 
@@ -28,10 +28,11 @@ export default () => html`
           Your email:
           <input type="email" name="_replyto" />
         </label>
+        <br></br>
         <div>
           <label>
             Your message:
-            <textarea name="message"></textarea>
+            <textarea name="message" rows="6px"></textarea>
           </label>
         </div>
         <!-- your other form fields go here -->

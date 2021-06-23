@@ -1,7 +1,7 @@
 export default [
   { title: "Home", text: "Home" },
   { title: "About", text: "About" },
-  { title: "Investment", text: "Investment" },
+  { title: "Experience", text: "Experience" },
   { title: "Portfolio", text: "Portfolio" },
-  { title: "Forms", text: "Add Photo to Portfolio" }
+  { title: "Form", text: "Add Photo to Portfolio" }
 ];

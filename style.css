@@ -56,3 +56,19 @@ text-align: center;
 .align{
   padding-left: 150px;
 }
+.FORM{
+  font-size: 25px;
+  border: solid;
+  height: 220px;
+  width: 360px;
+  padding-top: 30px;
+  padding-left: 8px;
+}
+
+.About{
+  display: flex;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  padding-left: 400px;
+}
