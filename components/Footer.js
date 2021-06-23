@@ -6,19 +6,17 @@ import linked from "../Lib/linked.png";
 export default () => html`
   <footer>
     <div class="fixed-footer">
-      <div class="container">
-        <a target="_blank" href="https://www.instagram.com/sally.hoff27/">
-          <img src="${Insta1}" height="40px" />
-        </a>
-        <a target="_blank" href="https://www.linkedin.com/in/sallyhoffmann/">
-          <img src="${linked}" height="40px" />
-        </a>
-        <a target="_blank" href="https://www.facebook.com/sally.hoffmann">
-          <img src="${fb}" height="40px" padding="10px" />
-        </a>
+      <a target="_blank" href="https://www.instagram.com/sally.hoff27/">
+        <img src="${Insta1}" height="35px" />
+      </a>
+      <a target="_blank" href="https://www.linkedin.com/in/sallyhoffmann/">
+        <img src="${linked}" height="35px" />
+      </a>
+      <a target="_blank" href="https://www.facebook.com/sally.hoffmann">
+        <img src="${fb}" height="35px" padding="10px" />
+      </a>
 
-        Copyright &copy; 2021 Sally Hoffmann Photgraphy
-      </div>
+      Copyright &copy; 2021 Sally Hoffmann Photgraphy
     </div>
   </footer>
 `;

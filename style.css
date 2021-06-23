@@ -22,9 +22,11 @@ body{
 }
 .fixed-header{
   top: 0;
+  padding-left: 25px;
 }
 .fixed-footer{
   bottom: 0;
+  padding-inline-start: 900px;
 }
 nav a{
   color: #fff;
